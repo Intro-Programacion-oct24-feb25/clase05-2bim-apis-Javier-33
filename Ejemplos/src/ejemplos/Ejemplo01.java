@@ -6,6 +6,7 @@
 package ejemplos;
 
 import java.security.SecureRandom;
+
 // import java.security.*;
 
 /**
@@ -18,7 +19,7 @@ public class Ejemplo01 {
         // TODO code application logic here
         int valorA = obtenerNumero(); // 3
         int valorB = obtenerNumero(); // 2
-        int suma = obtnerSuma(valorA, valorB);
+        int suma = obtenerSuma(valorA, valorB);
         System.out.printf("La suma de %d + %d es igual a: %d\n", 
                 valorA,
                 valorB,
@@ -35,7 +36,7 @@ public class Ejemplo01 {
         return valorAleatorio;
     }
     
-    public static int obtnerSuma(int a, int b){
+    public static int obtenerSuma(int a, int b){
         return a + b;
     }
     
